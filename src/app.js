@@ -14,7 +14,7 @@ const port = process.env.PORT || 8000;
 
 const template_path = path.join(__dirname, "../template/views")
 
-// telling express that we use hbs file in views folder
+// telling express that we use hbs file as view
 app.set('views engine', 'hbs');
 // telling that new foler template under working veiws folder new path
 app.set('views', template_path);
